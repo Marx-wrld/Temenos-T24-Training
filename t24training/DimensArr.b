@@ -19,4 +19,6 @@ PROGRAM DimensArr
         NEXT c 
     NEXT r   
 
+    
+
 END
