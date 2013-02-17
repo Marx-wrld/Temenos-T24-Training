@@ -5,7 +5,7 @@ public class Forex {
     public Forex(){
         //
     }
-
+_
     public double calculate(String params){
         //params: FCY]AMOUNT(eg: "USD]2349.45")
         String[] values = params.split("]");

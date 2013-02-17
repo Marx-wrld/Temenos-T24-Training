@@ -1,8 +1,8 @@
 SUBROUTINE TRG.VAL3
 
-    $INSERT I_COMMON
-    $INSERT I_EQUATE
-    $INSERT I_F.ACCOUNT
+    $INSERT ../T24_BP I_COMMON
+    $INSERT ../T24_BP I_EQUATE
+    $INSERT ../T24_BP I_F.ACCOUNT
 
     GOSUB INIT_SECTION
     GOSUB PROCESS_SECTION
@@ -23,3 +23,5 @@ SUBROUTINE TRG.VAL3
 
     CALL F.READ(fn_acc, acc_id, acc_rec, f_acc, err)
     category = acc_rec<AC.CATEGORY>
+    RETURN
+END
