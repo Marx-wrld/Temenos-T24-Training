@@ -1,0 +1,25 @@
+TESTCASE TestGetAcctDetails
+    $USING AC.AccountOpening
+
+    UTF.setTarget("EB.MtdTraining.VSGetAcctDetails")
+    UTF.setDescription("Unit test to get account details in a JSON object")
+
+    id = "89787"
+    record = ""
+    record<AC.AccountOpening.Account.ShortTitle> = "John Smith"
+    record<AC.AccountOpening.Account.Currency> = "USD"
+    record<AC.AccountOpening.Account.WorkingBalance> = "255565.23"
+
+    UTF.setRecord("F.ACCOUNT", id, record)
+
+    UTF.addParam(id)
+    UTF.addParam(details)
+
+    UTF.runTest()
+
+    expected = '{ "id": "89787", "name": "JohnSmith", "currency": "USD", "balance": 25564.23}'
+
+    UTF.assetEquals(details, expected)
+
+    RETURN
+END
