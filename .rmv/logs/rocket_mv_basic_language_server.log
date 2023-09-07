@@ -169,3 +169,7 @@ Account{name=..., path=..., type=PREDICT}
 2023-09-07 09:24:28.330 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file:///e%3A/VM%20shareable/T24-Training/t24training/TestDTI.b
 2023-09-07 09:24:28.354 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: E:/VM shareable/T24-Training/t24training/TestDTI.b
 2023-09-07 09:24:28.364 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/VM shareable/T24-Training/t24training)
+2023-09-07 08:28:37.646 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file:///e%3A/VM%20shareable/T24-Training/t24UnitTestingFramework/TestProg.b
+2023-09-07 08:28:37.648 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: E:/VM shareable/T24-Training/t24UnitTestingFramework/TestProg.b
+2023-09-07 08:28:37.649 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/VM shareable/T24-Training/t24UnitTestingFramework)
+2023-09-07 08:28:41.702 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(E:/VM shareable/T24-Training/t24UnitTestingFramework)
