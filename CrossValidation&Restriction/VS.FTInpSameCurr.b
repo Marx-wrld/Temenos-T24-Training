@@ -1,0 +1,13 @@
+    SUBROUTINE VS.FTInpSameCurr
+
+
+    $INSERT T24.BP I_COMMON
+    $INSERT T24.BP I_EQUATE
+    $INSERT T24.BP I_F_FUNDS.TRANSFER
+
+    IF R.NEW(FT.DEBIT.CURRENCY) NE R.REN(FT.CREDIT.CURRENCY) THEN 
+        ETEXT = "Debit and credit currencies are not the same"
+    END
+
+    RETURN
+END
