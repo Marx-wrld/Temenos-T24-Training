@@ -1,0 +1,9 @@
+component EB.MtdTraining
+
+# Component Isolation Definition
+metamode1Version 1.6
+# -----------------------------------------
+public method VSGetAcctDetails(IN acct_id string, OUT details string)
+{
+    JBC : VS.GetAcctDetails
+}
