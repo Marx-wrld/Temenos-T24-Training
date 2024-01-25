@@ -7,7 +7,7 @@ PROGRAM TEST
     CRT "---BEFORE---"
     CRT "Phone : " : phone
 
-*Function - used when want to save the original value 
+*Function - used when you want to save the original value 
     CRT "---FUNCTION---"
     phone1 = CHANGE(phone, ",", "-")
     CRT "Phone : " : phone
