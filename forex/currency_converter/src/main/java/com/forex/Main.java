@@ -13,7 +13,7 @@ public class Main {
         String param1 = fcy1 + "]" + amountInLcy;   // "USD]2349.45"
         double amountInUSD = forex.calculate(param1);
 
-        String param2 = fcy2 + "]" + amountInLcy;  // "RUB]2349.45"
+        String param2 = fcy2 + "]" + amountInLcy;   // "RUB]2349.45"
         double amountInRUB = forex.calculate(param2);
 
         String param3 = fcy3 + "]" + amountInLcy;   // "RWF]2349.45"
