@@ -1,7 +1,5 @@
 package com.forex;
 
-import main.java.com.forex.Forex;
-
 public class Main {
     public static void main(String[] args) {
         Forex forex = new Forex();
