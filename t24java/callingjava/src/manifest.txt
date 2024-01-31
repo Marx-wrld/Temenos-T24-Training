@@ -1,1 +1,0 @@
-Main-Class: java.com.marx.Main
