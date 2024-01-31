@@ -1,0 +1,155 @@
+2023-10-21 08:03:24.994 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/ValidateUserInput%26DefaultValues/VS.ValSavingsAc.b
+2023-10-21 08:03:25.264 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/ValidateUserInput&DefaultValues/VS.ValSavingsAc.b
+2023-10-21 08:03:25.286 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/ValidateUserInput&DefaultValues)
+2023-10-21 08:03:25.306 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/ValidateUserInput&DefaultValues)
+2023-10-21 08:03:25.312 [pool-5-thread-5] INFO  com.rs.mv.mvvs.client.convention.UvConvention - [client:40030102]get windows home information: Optional.empty
+2023-10-21 08:03:25.383 [pool-5-thread-5] INFO  com.rs.mv.mvvs.client.convention.UvConvention - [client:40030102]get windows home information: Optional.empty
+2023-10-21 08:03:25.409 [Thread-131] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2023-10-21 08:03:25.424 [Thread-131] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2023-10-21 08:03:27.678 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/ValidateUserInput%26DefaultValues/VS.ValDefaultMnemonic.b
+2023-10-21 08:03:27.679 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/ValidateUserInput&DefaultValues/VS.ValDefaultMnemonic.b
+2023-10-21 08:03:27.682 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/ValidateUserInput&DefaultValues)
+2023-10-21 08:03:27.686 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/ValidateUserInput&DefaultValues)
+2023-10-21 08:03:28.231 [pool-5-thread-5] INFO  com.rs.mv.mvvs.client.convention.UvConvention - [client:40030102]get windows home information: Optional.empty
+2023-10-21 08:03:28.318 [pool-5-thread-5] INFO  com.rs.mv.mvvs.client.convention.UvConvention - [client:40030102]get windows home information: Optional.empty
+2023-10-21 08:03:28.393 [pool-5-thread-5] INFO  com.rs.mv.mvvs.client.convention.UvConvention - [client:40030102]get windows home information: Optional.empty
+2023-10-21 08:03:28.456 [pool-5-thread-5] INFO  com.rs.mv.mvvs.client.convention.UvConvention - [client:40030102]get windows home information: Optional.empty
+2023-10-21 08:03:28.474 [Thread-135] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2023-10-21 08:03:28.498 [Thread-135] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2023-10-21 08:03:28.511 [Thread-135] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2023-10-21 08:03:28.516 [Thread-135] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2023-10-21 08:03:32.572 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/TransitionFromTAFCToTAFJ)
+2023-10-21 08:03:41.255 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24UnitTestingFramework/TestProg.b
+2023-10-21 08:03:41.300 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24UnitTestingFramework/TestProg.b
+2023-10-21 08:03:41.513 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24UnitTestingFramework)
+2023-10-21 08:03:41.654 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24UnitTestingFramework)
+2023-10-21 08:03:42.821 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24UnitTestingFramework)
+2023-10-21 08:03:46.314 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24UnitTestingFramework/TestProg.b
+2023-10-21 08:03:46.315 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24UnitTestingFramework/TestProg.b
+2023-10-21 08:03:46.318 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24UnitTestingFramework)
+2023-10-21 08:03:46.324 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24UnitTestingFramework)
+2023-10-21 08:34:33.913 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/TransitionFromTAFCToTAFJ/VS.ProcessAcctList.b
+2023-10-21 08:34:33.927 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/TransitionFromTAFCToTAFJ/VS.ProcessAcctList.b
+2023-10-21 08:34:33.934 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/TransitionFromTAFCToTAFJ)
+2023-10-21 08:34:33.938 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/TransitionFromTAFCToTAFJ)
+2023-10-21 08:34:42.006 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/TransitionFromTAFCToTAFJ/VS.GetAcctDetails.b
+2023-10-21 08:34:42.007 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/TransitionFromTAFCToTAFJ/VS.GetAcctDetails.b
+2023-10-21 08:34:42.009 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/TransitionFromTAFCToTAFJ)
+2023-10-21 08:34:42.015 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/TransitionFromTAFCToTAFJ)
+2023-10-21 08:34:42.095 [Thread-156] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2023-10-21 08:34:42.114 [Thread-156] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_COMMON
+2023-10-21 08:34:42.123 [Thread-156] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2023-10-21 08:34:42.125 [Thread-156] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_EQUATE
+2023-10-21 08:34:42.128 [Thread-156] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2023-10-21 08:34:42.133 [Thread-156] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_F.ACCOUNT
+2023-10-21 08:34:46.366 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/TransitionFromTAFCToTAFJ)
+2023-10-21 08:34:55.064 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/TransitionFromTAFCToTAFJ)
+2023-10-21 08:34:58.484 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24UnitTestingFramework)
+2023-10-21 08:34:59.659 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24UnitTestingFramework/TestProg.b
+2023-10-21 08:34:59.661 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24UnitTestingFramework/TestProg.b
+2023-10-21 08:34:59.667 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24UnitTestingFramework)
+2023-10-21 08:34:59.670 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24UnitTestingFramework)
+2023-10-21 08:35:05.675 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24training/TestProg.b
+2023-10-21 08:35:05.677 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24training/TestProg.b
+2023-10-21 08:35:05.691 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24training)
+2023-10-21 08:35:05.697 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24training)
+2023-10-21 08:35:14.790 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24training/TestDTI.b
+2023-10-21 08:35:14.791 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24training/TestDTI.b
+2023-10-21 08:35:14.796 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24training)
+2023-10-21 08:35:14.800 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24training)
+2023-10-21 08:42:06.369 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24training/Intro.b
+2023-10-21 08:42:06.370 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24training/Intro.b
+2023-10-21 08:42:06.376 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24training)
+2023-10-21 08:42:06.394 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24training)
+2023-10-21 08:44:15.409 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24training/HelloProg.b
+2023-10-21 08:44:15.410 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24training/HelloProg.b
+2023-10-21 08:44:15.420 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24training)
+2023-10-21 08:44:15.425 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24training)
+2023-10-21 08:44:18.340 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24training/DynamicArr.b
+2023-10-21 08:44:18.341 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24training/DynamicArr.b
+2023-10-21 08:44:18.344 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24training)
+2023-10-21 08:44:18.349 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24training)
+2023-10-21 08:53:16.791 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24training/TestDTI.b
+2023-10-21 08:53:16.792 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24training/TestDTI.b
+2023-10-21 08:53:16.800 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24training)
+2023-10-21 08:53:16.804 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24training)
+2023-10-21 08:53:25.200 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/t24training/TestProg.b
+2023-10-21 08:53:25.202 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/t24training/TestProg.b
+2023-10-21 08:53:25.206 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/t24training)
+2023-10-21 08:53:25.221 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24training)
+2013-02-17 11:09:24.287 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/Multithreading/GREETING.SVC.SELECT.b
+2013-02-17 11:09:24.290 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/Multithreading/GREETING.SVC.SELECT.b
+2013-02-17 11:09:24.299 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/Multithreading)
+2013-02-17 11:09:24.350 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/Multithreading)
+2013-02-17 11:09:24.649 [Thread-227] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:09:24.655 [Thread-227] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_COMMON
+2013-02-17 11:09:24.656 [Thread-227] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:09:24.659 [Thread-227] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_EQUATE
+2013-02-17 11:09:24.662 [Thread-227] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:09:24.664 [Thread-227] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_GREETING.SVC.COMMON
+2013-02-17 11:09:29.828 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/Multithreading)
+2013-02-17 11:09:32.231 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/Multithreading/GREETING.SVC.b
+2013-02-17 11:09:32.232 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/Multithreading/GREETING.SVC.b
+2013-02-17 11:09:32.241 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/Multithreading)
+2013-02-17 11:09:32.283 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/Multithreading)
+2013-02-17 11:09:32.502 [pool-5-thread-10] INFO  com.rs.mv.mvvs.client.convention.UvConvention - [client:40030102]get windows home information: Optional.empty
+2013-02-17 11:09:32.542 [Thread-232] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:09:32.545 [Thread-232] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_COMMON
+2013-02-17 11:09:32.551 [Thread-232] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:09:32.553 [Thread-232] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_EQUATE
+2013-02-17 11:09:32.556 [Thread-232] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:09:32.559 [Thread-232] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_F.CUSTOMER
+2013-02-17 11:09:32.561 [Thread-232] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:09:39.829 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/ProduceJsonData%26ProcessSavedlists/VS.ProcessAcctList.b
+2013-02-17 11:09:39.834 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/ProduceJsonData&ProcessSavedlists/VS.ProcessAcctList.b
+2013-02-17 11:09:39.838 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/ProduceJsonData&ProcessSavedlists)
+2013-02-17 11:09:40.185 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/ProduceJsonData&ProcessSavedlists)
+2013-02-17 11:10:05.452 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/JBCFunctions%26Statements/TestProg.b
+2013-02-17 11:10:05.459 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/JBCFunctions&Statements/TestProg.b
+2013-02-17 11:10:05.460 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/JBCFunctions&Statements)
+2013-02-17 11:10:05.464 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/JBCFunctions&Statements)
+2013-02-17 11:10:27.851 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/CreatingLoggerInJBC/MX.Logger.b
+2013-02-17 11:10:27.853 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/CreatingLoggerInJBC/MX.Logger.b
+2013-02-17 11:10:27.857 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/CreatingLoggerInJBC)
+2013-02-17 11:10:27.859 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/CreatingLoggerInJBC)
+2013-02-17 11:10:30.024 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/CreatingLoggerInJBC/MX.TestProg.b
+2013-02-17 11:10:30.025 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/CreatingLoggerInJBC/MX.TestProg.b
+2013-02-17 11:10:30.028 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/CreatingLoggerInJBC)
+2013-02-17 11:10:30.034 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/CreatingLoggerInJBC)
+2013-02-17 11:10:33.114 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/AutopopulateContentUsingSubroutine/VS.AcRandMnemonic.b
+2013-02-17 11:10:33.115 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/AutopopulateContentUsingSubroutine/VS.AcRandMnemonic.b
+2013-02-17 11:10:33.118 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/AutopopulateContentUsingSubroutine)
+2013-02-17 11:10:33.120 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/AutopopulateContentUsingSubroutine)
+2013-02-17 11:10:33.155 [Thread-262] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:10:33.156 [Thread-262] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:10:33.158 [Thread-262] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:10:35.761 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/Create&MergeSavedlistsUsingJQLOnTAFC&SQLOnTAFJ)
+2013-02-17 11:10:40.502 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/CreateField%26UseInSubroutine/TestProg.b
+2013-02-17 11:10:40.506 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/CreateField&UseInSubroutine/TestProg.b
+2013-02-17 11:10:40.513 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/CreateField&UseInSubroutine)
+2013-02-17 11:10:40.516 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/CreateField&UseInSubroutine)
+2013-02-17 11:10:41.786 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/CreateField%26UseInSubroutine/VS.SendSMSAlert.b
+2013-02-17 11:10:41.787 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/CreateField&UseInSubroutine/VS.SendSMSAlert.b
+2013-02-17 11:10:41.790 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/CreateField&UseInSubroutine)
+2013-02-17 11:10:41.792 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/CreateField&UseInSubroutine)
+2013-02-17 11:10:41.844 [Thread-268] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:10:41.846 [Thread-268] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_COMMON
+2013-02-17 11:10:41.846 [Thread-268] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:10:41.847 [Thread-268] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_EQUATE
+2013-02-17 11:10:41.849 [Thread-268] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:10:41.850 [Thread-268] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：374,Text: I_F.ACCOUNT
+2013-02-17 11:11:05.295 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100301]open basic file: file://marx/VM%20shareable/T24-Training/CrossValidation%26Restriction/VS.FTInpSameCurr.b
+2013-02-17 11:11:05.298 [pool-3-thread-1] INFO  com.rs.mv.mvvs.lsp.feature.didopen.DidOpen - [LSP:100302]convert basic file uri to path: //marx/VM shareable/T24-Training/CrossValidation&Restriction/VS.FTInpSameCurr.b
+2013-02-17 11:11:05.307 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//marx/VM shareable/T24-Training/CrossValidation&Restriction)
+2013-02-17 11:11:05.309 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/CrossValidation&Restriction)
+2013-02-17 11:11:05.339 [Thread-272] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:11:05.343 [Thread-272] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:11:05.344 [Thread-272] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 11:14:58.737 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/JBCFunctions&Statements)
+2013-02-17 11:15:00.152 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/t24training)
+2013-02-17 12:21:20.436 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/JBCFunctions&Statements)
+2013-02-17 12:21:23.389 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/CrossValidation&Restriction)
+2013-02-17 12:21:23.705 [Thread-284] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 12:21:23.707 [Thread-284] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 12:21:23.708 [Thread-284] WARN  com.rs.mv.mvvs.lsp.feature.semantichighlighting.SemanticAnalyseVisitor - Semantic recognition error. Token type：373, Text:  
+2013-02-17 12:21:28.467 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(//MARX/VM shareable/T24-Training/JBCFunctions&Statements)
