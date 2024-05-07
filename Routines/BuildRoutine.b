@@ -1,0 +1,14 @@
+SUBROUTINE VS.EnqBuildCurSavAc(ENQ.DATA)
+
+* For selecting current and savings account
+
+    $INSERT I_COMMON
+    $INSERT I_EQUATE
+    $INSERT I_ENQUIRY.COMMON
+
+    ENQ.DATA<2,1> = 'CATEGORY'
+    ENQ.DATA<3,1> = 'EQ'
+    ENQ.DATA<4,1> = '1001 1002 1003 1004 1005 1006 6001 6002 6003 6004 6005 6006 6007'
+
+    RETURN
+END
