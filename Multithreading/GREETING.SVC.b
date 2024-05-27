@@ -1,5 +1,7 @@
     SUBROUTINE GREETING.SVC(cust_id)
-    
+
+
+
     $INSERT I_COMMON
     $INSERT I_EQUATE
     $INSERT I_F.CUSTOMER
