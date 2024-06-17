@@ -4,15 +4,13 @@
     PROGRAM CUSTOMER.DETAILS
 
 * Input subroutine
-    $INSERT I_COMMON
-    $INSERT I_EQUATE
-    $INSERT I_F.CUSTOMER
+    $INSERT ../T24_BP I_COMMON
+    $INSERT ../T24_BP I_EQUATE
+    $INSERT ../T24_BP I_F.CUSTOMER
    
    
 *
 *** check if the customer is in the file and then load the details
-
-   
 
     INPUT.MODE = ""
     FN.CUSTOMER = "F.CUSTOMER"

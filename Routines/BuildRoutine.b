@@ -2,9 +2,9 @@ SUBROUTINE VS.EnqBuildCurSavAc(ENQ.DATA)
 
 * For selecting current and savings account
 
-    $INSERT I_COMMON
-    $INSERT I_EQUATE
-    $INSERT I_ENQUIRY.COMMON
+    $INSERT ../T24_BP I_COMMON
+    $INSERT ../T24_BP I_EQUATE
+    $INSERT ../T24_BP I_ENQUIRY.COMMON
 
     ENQ.DATA<2,1> = 'CATEGORY'
     ENQ.DATA<3,1> = 'EQ'
