@@ -1,0 +1,82 @@
+ *-----------------------------------------------------------------------------
+ * <Rating>0</Rating>
+ *-----------------------------------------------------------------------------
+ ***************************************************************************************
+ * Programmer         : Velocity Software Ltd(Thadeus)
+ * Created            : 16 August 2024
+ * Modified           :
+ * Comment            : Auth routine to keep track of changes on the Customer Emails
+ *                    :
+ ***************************************************************************************
+
+     SUBROUTINE EMAIL.AUTH.AA.RTN
+     $INSERT ../T24_BP I_COMMON
+     $INSERT ../T24_BP I_EQUATE
+     $INSERT ../T24_BP I_F.ACCOUNT
+     $INSERT ../T24_BP I_F.AA.ARRANGEMENT.ACTIVITY
+     $INSERT ../T24_BP I_F.OFS.SOURCE
+
+     FN.OFS.SOURCE = 'F.OFS.SOURCE'
+     F.OFS.SOURCE = ''
+     CALL OPF(FN.OFS.SOURCE,F.OFS.SOURCE)
+
+
+     FN.AA = 'FBNK.AA.ARRANGEMENT.ACTIVITY'
+     F.AA = ''
+     CALL OPF(FN.AA,F.AA)
+
+     FN.AC = 'FBNK.ACCOUNT'
+     F.AC = ''
+     CALL OPF(FN.AC,F.AC)
+
+
+
+     ACCOUNT.NUMBER = ''
+     CUST.EMAIL.ID = ''
+     ERR.1 = ''
+     ERR.2 = ''
+     ERR.3 = ''
+
+
+     Y.FILE.ID = ID.NEW
+
+     CALL F.READ(FN.AA,Y.FILE.ID,R.AA,F.AA,ERR.1)
+     ARR.ID = R.AA<AA.ARR.ACT.ARRANGEMENT>
+
+
+
+     CMD.2 = 'SELECT FBNK.ACCOUNT WITH ARRANGEMENT.ID EQ ' : ARR.ID
+
+     CALL EB.READLIST(CMD.2,LIST.2,'',CNT.2,ERR.2)
+
+     REMOVE AC.ID FROM LIST.2 SETTING MARKER.2
+
+     CALL F.READ(FN.AC,AC.ID,R.AC,F.AC,ERR.3)
+
+
+
+     Y.EMAIL = R.AC<AC.LOCAL.REF,73>
+     Y.VERSION =  'AC.TX.VSL,TX.EMAILS'
+
+     Y.OFS.MSG = '' ;
+     Y.CREDS = 'mbmaina/Kenya123'
+     OFS.MSG.ID=""
+     OFS.SOURCE.ID='GCS'
+     Y.OFS.RESPONSE= ''
+     OFS.ERROR = ''
+
+     Y.OFS.MSG = Y.VERSION:'/I/PROCESS'
+     Y.OFS.MSG := ',':Y.CREDS
+     Y.OFS.MSG := ',':Y.FILE.ID
+     Y.OFS.MSG := ',ACCOUNT.NUMBER:=':AC.ID
+     Y.OFS.MSG := ',CUST.EMAIL.ID:=':Y.EMAIL
+
+
+     IF Y.OFS.MSG NE '' THEN
+         CALL OFS.CALL.BULK.MANAGER(OFS.SOURCE.ID,Y.OFS.MSG,Y.OFS.RESPONSE,OFS.ERROR)
+    CALL JOURNAL.UPDATE("")
+     END
+
+
+     RETURN
+ END
