@@ -27,7 +27,7 @@
     Y.VERSION =  'AC.TX.VSL,TX.EMAILS'
     Y.EMAIL = R.NEW(EB.CUS.EMAIL.1)
     Y.OFS.MSG = '' ;
-    Y.CREDS = 'mbmaina/Kenya123'
+    Y.CREDS = 'INPUTT/123456'
     OFS.MSG.ID=""
     OFS.SOURCE.ID='GCS'
     Y.OFS.RESPONSE= ''
