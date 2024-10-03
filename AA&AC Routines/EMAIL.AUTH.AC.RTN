@@ -1,0 +1,50 @@
+***************************************************************************************
+* Programmer         : Velocity Software Ltd(Thadeus)
+* Created            : 16 August 2024
+* Modified           : 
+* Comment            : Auth routine to keep track of changes on the Customer Emails
+*                    :
+***************************************************************************************
+
+    SUBROUTINE EMAIL.AUTH.RTN
+    $INSERT ../T24_BP I_COMMON
+    $INSERT ../T24_BP I_EQUATE
+    $INSERT ../T24_BP I_F.CUSTOMER
+    $INSERT ../T24_BP I_F.OFS.SOURCE
+
+    FN.OFS.SOURCE = 'F.OFS.SOURCE'
+    F.OFS.SOURCE = ''
+    CALL OPF(FN.OFS.SOURCE,F.OFS.SOURCE)
+
+
+
+    Y.STRING = ID.NEW : "|" : R.NEW(EB.CUS.EMAIL.1)
+    ACCOUNT.NUMBER = ''
+    ACCOUNT.EMAIL = ''
+
+
+    Y.FILE.ID = ID.NEW
+    Y.VERSION =  'AC.TX.VSL,TX.EMAILS'
+    Y.EMAIL = R.NEW(EB.CUS.EMAIL.1)
+    Y.OFS.MSG = '' ;
+    Y.CREDS = 'mbmaina/Kenya123'
+    OFS.MSG.ID=""
+    OFS.SOURCE.ID='GCS'
+    Y.OFS.RESPONSE= ''
+    OFS.ERROR = ''
+
+    Y.OFS.MSG = Y.VERSION:'/I/PROCESS'
+    Y.OFS.MSG := ',':Y.CREDS
+    Y.OFS.MSG := ',':Y.FILE.ID
+    Y.OFS.MSG := ',ACCOUNT.NUMBER:=':Y.FILE.ID
+    Y.OFS.MSG := ',ACCOUNT.EMAIL:=':Y.EMAIL
+
+
+    IF Y.OFS.MSG NE '' THEN
+		CALL OFS.CALL.BULK.MANAGER(OFS.SOURCE.ID,Y.OFS.MSG,Y.OFS.RESPONSE,OFS.ERROR)
+		CALL JOURNAL.UPDATE("")
+    END
+
+
+    RETURN
+END
